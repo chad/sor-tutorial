@@ -1,3 +1,6 @@
-* 
+* Object.new with #clone
+* singleton methods
+* mixing modules into classes
+* mixing module into objects
 * Ancestors (define a method then include a module that also defines it. Which one wins?)
 *

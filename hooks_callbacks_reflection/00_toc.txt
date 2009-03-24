@@ -1,6 +1,13 @@
-* stuff
-*
-*
-*
-*
+* method_missing
+* const_missing
+* included
+* extended
+* extend_object
+* inherited
+* method_added
+* ObjectSpace
+* #methods and friends
+* undefs
+* #method
+* const_undefined ???
 *
