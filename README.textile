@@ -1,5 +1,9 @@
 h1. The Secret Ingredients of Ruby
 
+This is material we're preparing for an all-day pre-conference charity tutorial for "Scotland on Rails":http://scotlandonrails.com to benefit the "Children's Hospice Association of Scotland":http://www.chas.org.uk/. 
+
+h1. Contents
+
 These things make Ruby special. They aren't "advanced". They're fundamental:
 
 
@@ -43,3 +47,15 @@ _Exercise_: OpenConst (const_missing + OpenStruct)?
 _Extra Credit_: Something harder than the exercise
 
 _Homework_:
+
+
+h1. Authors
+
+* Marcel Molina, Jr.
+* Chad Fowler
+
+h1. Thanks
+
+* Mike Clark contributed ideas for the structure of the tutorial
+* Dave Thomas taught Chad a lot of this stuff
+* Alan Francis roped us into doing this tutorial and organized the conference
