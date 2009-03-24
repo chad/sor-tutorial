@@ -38,8 +38,8 @@ _Homework_:
 
 h2. Hooks, callbacks, and reflection
 
-_Exercise_: Who knows
+_Exercise_: OpenConst (const_missing + OpenStruct)?
 
-_Extra Credit_: _Extra Credit_: Something harder than the exercise
+_Extra Credit_: Something harder than the exercise
 
 _Homework_:
