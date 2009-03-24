@@ -1,2 +1,27 @@
-* Stuff
-*
+* binding
+** Fundamental to how blocks work
+** Show with eval
+** Capture locals
+** Capture self
+** capture a &block
+** Can lazily refer to things not in scope when block is defined
+* convert a Proc to a block with &ampersand
+* to_proc fun
+* Stylistic ideas
+** block-based APIs
+** Storing blocks as callbacks
+** Structure definition
+** Sentences, no legos
+** instance_eval
+* closure
+* closures carry bindings
+* Dangers
+
+Interesting note from ruby 1.8.6
+
+rb_define_method(rb_cProc, "clone", proc_clone, 0);
+rb_define_method(rb_cProc, "dup", proc_dup, 0);
+
+
+rb_define_method(rb_cBinding, "clone", proc_clone, 0);
+rb_define_method(rb_cBinding, "dup", proc_dup, 0);
