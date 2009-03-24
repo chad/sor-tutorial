@@ -11,6 +11,5 @@ module ModuleBundle
       end
       module_bundle
     end
-    
   end
 end
