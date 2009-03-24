@@ -1,6 +1,16 @@
 module InMemoryAssociations
   def has_many(things, options = {})
-    define_method(things, &association_reader(things, []))
+    if through = options[:through]
+      define_method(through, &association_reader(through, [])) unless instance_methods.include?(through)
+      define_method(things) do
+        send(through).map do |through_thing|
+          # Yes, naive singularization.
+          through_thing.send(things.to_s.chomp("s"))
+        end
+      end
+    else
+      define_method(things, &association_reader(things, []))
+    end
   end
   
   def belongs_to(thing)
