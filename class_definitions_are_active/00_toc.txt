@@ -1,0 +1,19 @@
+* exit
+* puts
+* instance variables
+* method calls
+** method calls with explicit self
+** method calls with implicit self
+* method definitions
+** def ClassName.method_name inside class def
+** def ClassName.method_name outside class def
+** def self.method_name inside class def
+* inheritance hierarchy of "class methods"
+* mixing in class level methods
+* inheritance from an expression
+* local variables
+* looping in class definition?
+* define_method
+* class definitions are expressions
+* Class.new (Camping demo)
+* Module.new (Rails route helpers)
