@@ -1,0 +1,37 @@
+h1. The Secret Ingredients of Ruby
+
+These things make Ruby special. They aren't "advanced". They're fundamental:
+
+
+# Blocks/closures
+# Object-oriented vs. class-oriented (classes are less important than other languages, using mixins instead of inheritance, etc.)
+# Class definitions are active (method calls in class scope, etc.)
+# Hooks, callbacks, and reflection
+
+
+Each of these four areas has an exercise and a homework project. The exercise is something that can be done in 30 minutes at the tutorial. The homework project is harder and probably involves reading some specific code.
+
+h2. Blocks and closures
+
+_Exercise_: The closures for storing state thing checked into git repo?
+
+_Homework_:
+
+
+h2. Object Orientation and Mixins
+
+_Exercise_: Module bundles
+
+_Homework_: 
+
+h2. Class definitions are active
+
+_Exercise_: Some meta-programming thing
+
+_Homework_:
+
+h2. Hooks, callbacks, and reflection
+
+_Exercise_: Module bundles
+
+_Homework_:
