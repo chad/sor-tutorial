@@ -30,9 +30,9 @@ _Homework_:
 
 h2. Class definitions are active
 
-_Exercise_: Some meta-programming thing (probably not involving much metaprogramming)
+_Exercise_: Implement has_many, belongs_to, and has_many :through for plain ol' Ruby objects
 
-_Extra Credit_: Something harder than the exercise
+_Extra Credit_: My file db example?
 
 _Homework_:
 
