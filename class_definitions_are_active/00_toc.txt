@@ -1,3 +1,4 @@
+* self
 * exit
 * puts
 * instance variables

@@ -40,6 +40,6 @@ h2. Hooks, callbacks, and reflection
 
 _Exercise_: Who knows
 
-_Extra Credit_: _Extra Credit_: Something harder than the exercise
+_Extra Credit_: __method__
 
 _Homework_:
