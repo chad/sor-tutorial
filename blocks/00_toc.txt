@@ -19,9 +19,12 @@
 
 Interesting note from ruby 1.8.6
 
+<pre>
 rb_define_method(rb_cProc, "clone", proc_clone, 0);
 rb_define_method(rb_cProc, "dup", proc_dup, 0);
 
 
 rb_define_method(rb_cBinding, "clone", proc_clone, 0);
 rb_define_method(rb_cBinding, "dup", proc_dup, 0);
+
+</pre>

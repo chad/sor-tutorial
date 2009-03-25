@@ -38,7 +38,7 @@ _Exercise_: Implement has_many, belongs_to, and has_many :through for plain ol' 
 
 _Extra Credit_: My file db example?
 
-_Homework_:
+_Homework_: Read and map out how has_many works in ActiveRecord
 
 h2. Hooks, callbacks, and reflection
 
@@ -46,7 +46,7 @@ _Exercise_: OpenConst (const_missing + OpenStruct)?
 
 _Extra Credit_: __method__
 
-_Homework_:
+_Homework_: Jim Weirich's Builder library
 
 
 h1. Authors
