@@ -10,6 +10,6 @@ class Person
     @name = name
   end
 end
-
+p Person.name
 Person.name = "Marcel"
 p Person.name

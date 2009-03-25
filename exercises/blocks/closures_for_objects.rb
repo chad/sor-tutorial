@@ -10,5 +10,5 @@ end
 context = stored_context
 p context[:name][]
 context[:name=]["Jorge"]
-p context[:name][]#!/usr/bin/ruby
+p context[:name][]
 

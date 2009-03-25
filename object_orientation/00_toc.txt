@@ -1,4 +1,7 @@
 * Object.new with #clone
+* include
+* extend
+* include self?
 * singleton methods
 * mixing modules into classes
 * mixing module into objects

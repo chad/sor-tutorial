@@ -6,7 +6,6 @@ h1. Contents
 
 These things make Ruby special. They aren't "advanced". They're fundamental:
 
-
 # Blocks/closures
 # Object-oriented vs. class-oriented (classes are less important than other languages, using mixins instead of inheritance, etc.)
 # Class definitions are active (method calls in class scope, etc.)
@@ -17,26 +16,34 @@ Each of these four areas has an exercise and a homework project. The exercise is
 
 h2. Blocks and closures
 
-_Exercise_: The closures for storing state thing checked into git repo?
+_Exercise_: Ruby-based configuration:
 
-_Extra Credit_: Something harder than the exercise
+<pre>
+configuration = configure do |config|
+  config.tail_logs = true
+  config.max_connections = 55
+  config.admin_password = 'secret'_
+  config.app_server do |app_server_config|
+    app_server_config.port = 8808
+    app_server_config.admin_password = config.admin_password
+  end
+end
 
-_Homework_:
+configuration.class # => Configuration
+configuration.tail_logs # => true
+configuration.app_server.admin_password # => 'secret'
+</pre>
+
+_Extra Credit_: Look through all of the classes built into Ruby (or in the standard library) and find an interesting use of to_proc (and implement it!)
 
 
 h2. Object Orientation and Mixins
 
 _Exercise_: Module bundles
 
-_Extra Credit_: Something harder than the exercise
-
-_Homework_: 
-
 h2. Class definitions are active
 
 _Exercise_: Implement has_many, belongs_to, and has_many :through for plain ol' Ruby objects
-
-_Extra Credit_: My file db example?
 
 _Homework_: Read and map out how has_many works in ActiveRecord
 
@@ -46,7 +53,7 @@ _Exercise_: OpenConst (const_missing + OpenStruct)?
 
 _Extra Credit_: __method__
 
-_Homework_: Jim Weirich's Builder library
+_Homework_: Implement your own clone of Jim Weirich's Builder library
 
 
 h1. Authors

@@ -9,5 +9,4 @@
 * #methods and friends
 * undefs
 * #method
-* const_undefined ???
-*
+

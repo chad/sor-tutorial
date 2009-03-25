@@ -17,6 +17,7 @@
 * closures carry bindings
 * Dangers
 
+
 Interesting note from ruby 1.8.6
 
 <pre>
